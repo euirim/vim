@@ -10,13 +10,13 @@ set encoding=utf-8
 
 set number
 set ruler
-set spell spellang=en_us
+set spell spelllang=en_us
 
 " Spaces instead of tabs
 set expandtab
 
 " Smart Tabs
-" set smarttab
+set smarttab
 
 " 1 tab = 4 spaces
 set shiftwidth=4

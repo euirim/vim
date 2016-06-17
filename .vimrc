@@ -10,7 +10,6 @@ set encoding=utf-8
 
 set number
 set ruler
-set spell spelllang=en_us
 
 " Spaces instead of tabs
 set expandtab

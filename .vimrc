@@ -20,7 +20,7 @@ set smarttab
 " 1 tab = 4 spaces
 set shiftwidth=4
 set tabstop=4
-
+set textwidth=79
 set ai
 set si
 
@@ -31,3 +31,10 @@ set wrap
 set nobackup
 set nowb
 set noswapfile
+
+" Enable folding
+set foldmethod=indent
+set foldlevel=99
+
+" Enable folding with the spacebar
+nnoremap <space> za

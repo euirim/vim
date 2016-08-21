@@ -12,6 +12,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'gundo'
 Plugin 'ctrlp.vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -51,6 +53,9 @@ set si
 
 " wrap lines
 set wrap
+
+" BUFFERS
+set hidden " easier switching between buffers
 
 " BACKUPS
 " move backups to temp folder
@@ -113,3 +118,9 @@ augroup configgroup
     autocmd BufEnter *.sh setlocal softtabstop=2
     autocmd FileType html shiftwidth=2 tabstop=2 textwidth=0 softtabstop=2
 augroup END
+
+" STATUSLINE
+set laststatus=2
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'

@@ -1,3 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/Users/euirim/projects/maroon/.git'
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/euirim/projects/maple/engine'
+let g:netrw_dirhist_2='/Users/euirim/projects/maroon/apps/articles/templates'
+let g:netrw_dirhist_3='/Users/euirim/projects/maroon/maroon/templates'
+let g:netrw_dirhist_4='/Users/euirim/projects/maroon/apps/contributors'
+let g:netrw_dirhist_5='/Users/euirim/projects/maroon/apps/articles/templates'
+let g:netrw_dirhist_6='/Users/euirim/projects/maroon/apps/search/templates'
+let g:netrw_dirhist_7='/Users/euirim/aws'
+let g:netrw_dirhist_8='/Users/euirim/projects/maroon/apps/articles/templates'
+let g:netrw_dirhist_9='/Users/euirim/projects/maroon/maroon/settings'

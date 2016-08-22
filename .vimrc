@@ -116,6 +116,7 @@ augroup configgroup
     autocmd BufEnter *.sh setlocal shiftwidth=2
     autocmd BufEnter *.sh setlocal softtabstop=2
     autocmd FileType html setlocal shiftwidth=2 tabstop=2 textwidth=0 softtabstop=2
+    autocmd FileType htmldjango setlocal shiftwidth=2 tabstop=2 textwidth=0 softtabstop=2
 augroup END
 
 " STATUSLINE
